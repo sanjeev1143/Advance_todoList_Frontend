@@ -1,0 +1,11 @@
+/* Webfont: Galactus-Thin */@font-face {
+    font-family: 'GalactusThin';
+    src: url('Galactus-Thin.eot'); /* IE9 Compat Modes */
+    src: url('Galactus-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Galactus-Thin.woff') format('woff'), /* Modern Browsers */
+         url('Galactus-Thin.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

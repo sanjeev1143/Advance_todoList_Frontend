@@ -1,0 +1,11 @@
+/* Webfont: Galactus-BoldItalic */@font-face {
+    font-family: 'Galactus';
+    src: url('Galactus-BoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('Galactus-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Galactus-BoldItalic.woff') format('woff'), /* Modern Browsers */
+         url('Galactus-BoldItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: italic;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

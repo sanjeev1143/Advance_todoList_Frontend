@@ -1,0 +1,273 @@
+.navbar {
+    /* background-color: #6200EE; */
+    background: url("./asserts/bg2.jpg") no-repeat no-repeat center;
+    /* background: url("https://img.freepik.com/free-vector/hitech-futuristic-geometric-shape-speed-movement-background_1409-1943.jpg?w=1380&t=st=1668856153~exp=1668856753~hmac=07a7ad0a1913bef468564cad65b5342c2b6cf6f1d6cb86711d2e77b2b27cf59c") no-repeat no-repeat center; */
+    /* background: url("https://img.freepik.com/free-vector/big-data-concept-background_52683-24459.jpg?w=1380&t=st=1668856801~exp=1668857401~hmac=d6499acbd489615bba65bd7b478c5d5f15a9fcf81decbd31abd5a181f1576579") no-repeat no-repeat center; */
+    /* background: url("https://img.freepik.com/free-vector/purple-technology-background_23-2149118853.jpg?w=1380&t=st=1668899217~exp=1668899817~hmac=30541656f71a0e4082079f08f2cb2242e892c32e675dc7f8462c4358406114e6") no-repeat no-repeat center; */
+    background-size: 100%;
+    color: whitesmoke;
+    box-shadow: 2px 2px 5px #00203FFF;
+    margin-bottom: 3px;
+}
+
+/* body {
+    background: url("https://img.freepik.com/free-vector/cute-pattern-background-polka-dot-black-white-vector_53876-151294.jpg?w=1380&t=st=1664648267~exp=1664648867~hmac=118ec399f736d6ae4395234861e1eae02c6dfabbae72ce2ba64b0a39ed09ce08");
+  } */
+
+.navbar .headding {
+    margin-left: 10vh;
+
+}
+
+.night_mode {
+    background-color: #292929;
+}
+
+.night_mode .notes {
+    background-color: #121212;
+    color: #BB86FC;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.night_mode .notes h3 {
+    color: #fff;
+}
+
+.night_mode Button {
+    color: #6200EE;
+}
+
+.night_mode .navbar {
+    background-color: #00203FFF;
+    box-shadow: 2px 2px 5px #ADEFD1FF;
+    margin-bottom: 3px;
+    color: #ADEFD1FF;
+}
+
+.navbar li {
+    color: black;
+}
+
+.createNote {
+    margin-top: 2vh;
+    height: 10vw;
+    width: fit-content;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px #00203FFF;
+    justify-content: center;
+}
+
+.createNote input {
+    margin: 3px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.createNote textarea {
+    margin: 3px;
+    resize: none;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+input,
+textarea {
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    color: #6200EE;
+    font-family: 'Work Sans', sans-serif;
+    outline: none;
+    border: 0px;
+    width: 30vw;
+}
+
+
+
+.noteBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.addnote {
+    align-self: flex-end;
+}
+
+.notes {
+    font-family: 'Work Sans', sans-serif;
+    color: #6200EE;
+    display: flex;
+    margin: 1vh;
+    flex-direction: column;
+    background-color: #B0BEF0;
+    border-radius: 15px;
+    padding-left: 1vh;
+    padding-right: 1vh;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.night_mode .navbar {
+    background-color: black;
+    box-shadow: 2px 2px 5px #9B96CB;
+    color: white;
+}
+
+.night_mode .createNote,
+.night_mode .createNote input,
+.night_mode .createNote textarea {
+    background-color: #9B96CB;
+}
+
+.notes textarea {
+    resize: none;
+}
+
+
+
+.sideBar {
+    display: flex;
+    position: fixed;
+    opacity: 5;
+    top: 8.5vh;
+    transition: 1s;
+    z-index: 10;
+    padding: 8px 0 8px 16px;
+    flex-direction: column;
+    height: 100vh;
+    width: 10vw;
+    /* background: linear-gradient(#00203FFF, rgb(12, 60, 108), #fff); */
+    background-color: #2f4050;
+}
+
+.disc {
+    z-index: 20;
+}
+
+.paginationBttns {
+    width: 80%;
+    height: 40%;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: customfont;
+}
+
+.discIcon {
+    margin-left: 2vw;
+    height: 6vh;
+    width: 12vw;
+    margin-right: 2vh;
+    margin-bottom: 1.5vh;
+}
+
+.paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #2C2776;
+    color: #00203FFF;
+    cursor: pointer;
+}
+
+footer {
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.night_mode .paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #2C2776;
+    color: white;
+    cursor: pointer;
+}
+
+.paginationBttns a:hover {
+    background-color: #9B96CB;
+    color: #00203FFF;
+}
+
+.paginationActive a {
+    background-color: #9B96CB;
+    color: #00203FFF;
+}
+
+.updateIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchIp {
+    height: 2.5rem;
+    padding-left: 2vw;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 45vw;
+    border-radius: 10px;
+}
+
+.alert {
+    height: 25vh;
+    position: absolute;
+    width: 30vw;
+    background-color: rgba(128, 0, 128, 0.451);
+    color: #ee0000;
+    top: 10vh;
+    right: 4vw;
+    overflow: scroll;
+}
+
+.elements {
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr;
+    overflow: scroll;
+    grid-column-gap: 1vw;
+    margin: 1vh;
+}
+
+.note_inputs input,
+.note_inputs textarea {
+    border-radius: 4px;
+}
+
+.taskname {
+    margin-top: 2px;
+}
+
+.cardHead {
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    align-items: center;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+.cardHead h6 {
+    align-self: flex-start;
+    margin-top: 1vh;
+    text-decoration: underline;
+    font-family: "Galactus", Georgia;
+}
+
+.cardHead h2 {
+    margin-top: 1vh;
+    text-decoration: underline;
+    font-family: "Galactus", Georgia;
+    text-transform: capitalize;
+}
